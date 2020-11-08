@@ -1,11 +1,11 @@
 # terraform-azure
 
 # 0x 有關 Terraform 和 Azure 主要設定
-  01. Configure the Azure provider  
+  '01. Configure the Azure provider  
       設定 Terraform Azure 提供者 hashicorp/azurerm 使用的版本  
-  02. Create a resource group (Azure)  
+  '02. Create a resource group (Azure)  
       建立資源群組 (Azure)  
-  03. Create availability set (Azure)  
+  '03. Create availability set (Azure)  
       建立可用性設定組 (Azure)  
 
 # 1x 有關 Azure Networks 設定  
