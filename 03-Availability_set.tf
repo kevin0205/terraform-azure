@@ -1,4 +1,4 @@
-# 51 Create availability set
+# 03 Create availability set
 # 建立可用性設定組
 resource "azurerm_availability_set" "avset" {
   name                         = "avset"
