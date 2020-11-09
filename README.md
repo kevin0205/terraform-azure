@@ -44,7 +44,7 @@
 
 # 5x. 有關 terraform-azure 設定
  #51. Output Values  
-      輸出 Azure 設定值  
+      輸出 Azure Public IP address  
 
 # 6x. 有關 terraform 設定
  #61. Terraform variable type setting declaration  
