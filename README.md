@@ -50,5 +50,6 @@
  #61. Terraform variable type setting declaration  
       Terraform 變數型態設定宣告  
 
-terraform.tfvars
+# 其他.
+terraform.tfvars (固定檔名，不可更改檔名)  
 Terraform 變數設定檔
