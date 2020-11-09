@@ -8,7 +8,7 @@
  #03. Create availability set (Azure)  
       建立可用性設定組 (Azure)  
 
-# 1x 有關 Azure Networks 設定 (單數)
+# 1x 有關 Azure Networks 設定
  #11. Create virtual networks  
       建立虛擬網路  
  #12. Add subnet  
