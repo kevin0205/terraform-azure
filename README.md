@@ -1,6 +1,6 @@
 # terraform-azure
 
-# 0x 有關 Terraform 和 Azure 主要設定 (單數)
+# 0x 有關 Terraform 和 Azure 主要設定
  #01. Configure the Azure provider  
       設定 Terraform Azure 提供者 hashicorp/azurerm 使用的版本  
  #02. Create a resource group (Azure)  
@@ -20,11 +20,11 @@
  #15. Connect the Network security group to the subnet  
       網路安全性群組關聯至子網路  
 
-# 2x 有關 Azure Public IP 設定 (複數)
+# 2x 有關 Azure Public IP 設定
  #21. Create public IP address  
       建立公用 IP 位址  
 
-# 3x 有關 Azure Load balancer 設定 (單數)
+# 3x 有關 Azure Load balancer 設定
  #31. Create load balancer  
       建立負載平衡器  
  #32. Add backend pool  
@@ -36,7 +36,7 @@
  #35. Add inbound NAT rule  
       新增輸入 NAT 規則  
 
-# 4x 有關 Azure Virtual machine 設定 (複數)
+# 4x 有關 Azure Virtual machine 設定
  #41. Create a virtual machine (Linux)  
       建立虛擬機器 (Linux)  
  #42. Create and attach a disk  
