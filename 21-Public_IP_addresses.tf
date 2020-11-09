@@ -22,7 +22,7 @@ resource "azurerm_public_ip" "lbpip" {
   tags = var.tags
 }
 
-# 21-2 Create public IP address Connect to the Virtual machine
+# 21-1-3 Create public IP address Connect to the Virtual machine
 # 建立公用 IP 位址 (Public IP addresses) 關聯至虛擬機器 (Virtual machine)
 resource "azurerm_public_ip" "pip" {
   count               = var.num
