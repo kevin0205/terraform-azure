@@ -16,7 +16,6 @@ variable "rg" {
 variable "region" {
   type = string
   description = "Azure location of terraform server environment"
-
   default = "eastasia"
 }
 
@@ -32,7 +31,6 @@ variable "region" {
 variable "tags" {
   type = map
   description = "Azure location of terraform server environment"
-
   default = {
     Environment = "Dev"
     Dept        = "Engineering"
@@ -44,7 +42,6 @@ variable "tags" {
 variable "vnet_address_space" {
   type = list
   description = "Address space for Virtual Network"
-
   default = ["10.0.0.0/16"]
 }
 
@@ -53,7 +50,6 @@ variable "vnet_address_space" {
 variable "subnet_address_prefixes" {
   type = list
   description = "Address prefixes for Subnet"
-
   default = ["10.0.1.0/24"]
 }
 
@@ -80,7 +76,6 @@ variable "sku" {
 variable "vm_size" {
   type = string
   description = "Size of VM"
-
   default = "Standard_B1s"
 }
 
@@ -102,7 +97,6 @@ variable "os" {
 variable "managed_disk_type" {
   type = map
   description = "Disk type Premium in Primary location Standard in DR location"
-
   default = {
       japaneast = "Premium_LRS"
       eastasia = "Standard_LRS"
